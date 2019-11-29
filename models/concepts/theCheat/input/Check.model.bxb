@@ -1,0 +1,11 @@
+structure (Check) {
+  description (__DESCRIPTION__)
+  property (isuser) {
+    type (isUser)
+    min (Required) max (One)
+  }
+  property (isaccount) {
+    type(isAccount)
+    min (Required) max (One)
+  }
+}

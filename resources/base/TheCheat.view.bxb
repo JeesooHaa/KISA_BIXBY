@@ -1,24 +1,33 @@
 input-view {
-  match:contact.PhoneNumber
+  match:Check
 
-  message("성공")
+  message("전화번호 vs 계좌번호")
 
   render{
     form{
       elements{
-        text-input{
-          id (phoneinput)
-          type (contact.PhoneNumber)
-          label (Your number)
+        checkbox{
+          id(isuser)
+          type(isUser)
+          primary-text(전화번호입니다.)
+          secondary-text(확인)
+          value(false)
+        }
+        checkbox{
+          id(isaccount)
+          type(isAccount)
+          primary-text(계좌번호입니다.)
+          secondary-text(확인)
+          value(false)
         }
       }
       on-submit{
-        goal:contact.PhoneNumber
-        value:viv.core.FormElement(phoneinput)
-      }
-      submit-button{
-        template (Submit Name)
+        goal:Check
+        value:Check{
+          isuser:viv.core.FormElement(isuser)
+          isaccount:viv.core.FormElement(isaccount)
       }
     }
   }
+}
 }

@@ -1,4 +1,4 @@
-module.exports.function = function theCheat (phoneinput, goalinput, isuser) {
+module.exports.function = function theCheat (phoneinput, goalinput, check) {
   const http = require('http')
   const console = require('console')
 
@@ -20,6 +20,6 @@ module.exports.function = function theCheat (phoneinput, goalinput, isuser) {
   } else {
     res = "피해사례가 없습니다."
   }
-
+  console.log(check)
   return res
 }

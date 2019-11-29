@@ -9,10 +9,18 @@ action (TheCheat) {
 			type(cheatgoal)
 			min (Optional) max (Many)
 		}
-		input (isuser) {
-			type(isUser)
-			min (Optional) max (Many)
-		}
+    input (check) {
+      type(Check)
+      min (Required) max (One)
+    }
+		// input (isuser) {
+		// 	type(isUser)
+		// 	min (Required) max (One)
+		// }
+    // input (isaccount) {
+    //   type(isAccount)
+    //   min (Required) max (One)
+    // }
 	}
 	output (theCheatOut)
 }
