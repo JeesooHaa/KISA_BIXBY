@@ -1,20 +1,26 @@
 layout-macro-def(travelDetailInfoOut) {
-  params {
-    param (travelset) {
-      type (travelSet)
-      min (Optional)
-      max (One)
-    }
-  }
-
-  content {
-    section {  // this macro returns a "section"
-      content {
-        paragraph {
-          value ("#{value(travelset.kind)}")
-          style (Detail_M)
-        }
-      }
-    }
-  }
+	params {
+		param (travelset) {
+			type (travelSet)
+			min (Optional)
+			max (One)
+		}
+	}
+	
+	content {
+		section {  // this macro returns a "section"
+			content {
+				paragraph {
+					value ("#{value(travelset.kind)}")
+					style (Detail_M)
+				}
+				attribution-link{
+					label{
+						template ("가입하러가기")
+					}
+					url ("https://testapi.openbanking.or.kr/oauth/2.0/authorize?response_type=code&client_id=5gBFqY9IowKc7r4TpdcXXXP5PaCXJ0rzI52S9PFX&redirect_uri=https://shh-mongodb.herokuapp.com/&scope=transfer&state=12341234123412341234123412341234&auth_type=0")
+				}
+			}
+		}
+	}
 }
