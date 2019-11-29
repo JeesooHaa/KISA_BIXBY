@@ -1,0 +1,42 @@
+layout-macro-def (insureInfoOut) {
+  params {
+    param (insureset) {
+      type (insureSet)
+      min (Optional)
+      max (Many)
+    }
+  }
+
+    content {
+      section {  // this macro returns a "section"
+        content {
+          for-each (insureset) {
+            as (insurecontent) {
+              cell-card {
+                on-click{
+                  intent{
+                    goal: InsureDetail
+                    value: $expr(insurecontent)
+                  }
+                }
+                slot1 {
+
+                }
+                slot2 {
+                  content {
+                  order (SecondaryPrimary)
+                  primary {
+                    template ("#{value(insurecontent.rate)}")
+                  }
+                  secondary {
+                    template ("")
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+structure (insureDetailOutStructure) {
+  description (__DESCRIPTION__)
+  // property (rate) {
+  //   type (rate)
+  //   min (Optional) max (One)
+  // }
+  //   property (rate_min) {
+  //   type (rate_min)
+  //   min (Optional) max (One)
+  // }
+  //   property (premium) {
+  //   type (premium)
+  //   min (Optional) max (One)
+  // }
+  //   property (TR) {
+  //   type (TR)
+  //   min (Optional) max (One)
+  // }
+  //   property (TR_rate) {
+  //   type (TR_rate)
+  //   min (Optional) max (One)
+  // }
+    property (insureset) {
+    type (insureSet)
+    min (Optional) max (One)
+  }
+}
+

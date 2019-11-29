@@ -1,0 +1,30 @@
+action (InsureDetail) {
+  description (__DESCRIPTION__)
+  collect {
+    // input (rate) {
+    //   type (rate)
+    //   min (Optional) max (One)
+    // }
+    // input (rate_min) {
+    //   type (rate_min)
+    //   min (Optional) max (One)
+    // }
+    // input (premium) {
+    //   type (premium)
+    //   min (Optional) max (One)
+    // }
+    // input (TR) {
+    //   type (TR)
+    // min (Optional) max (One)
+    // }
+    // input (TR_rate) {
+    //   type (TR_rate)
+    // min (Optional) max (One)
+    // }
+    input (insureset) {
+      type (insureSet) 
+      min (Optional) max (One)
+    }
+  }
+  output (insureDetailOutStructure)
+}

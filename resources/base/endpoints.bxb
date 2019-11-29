@@ -9,6 +9,10 @@ endpoints {
       accepted-inputs (category, insureinput, goalinput)
       local-endpoint (Insure.js)
     }
+    action-endpoint (InsureDetail) {
+      accepted-inputs (insureset)
+      local-endpoint (InsureDetail.js)
+    }
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
     //   remote-endpoint (__ENDPOINT_URL__) {
