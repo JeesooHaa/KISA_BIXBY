@@ -1,0 +1,11 @@
+result-view{
+  match: insureDetailOutStructure(this)
+
+  render{
+    layout-macro (insureDetailInfoOut) {
+      param (insureset) {
+        expression (insureset)
+      }
+    }
+  }
+}
