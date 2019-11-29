@@ -1,0 +1,5 @@
+train (t-bxhit1bf66u1gjqv03hf3530u) {
+  utterance ("[g:isUser:prompt] (사기꾼번호)[v:isUser:true]입니다")
+  plan (Y2BiECvISaxML8ovzUvRy84sTtTLLA4tTi3CKc4IhAwMPEDMBMRANgA=)
+  last-modified (1575036146080)
+}
