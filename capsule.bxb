@@ -1,0 +1,21 @@
+capsule {
+  id (playground.kisa)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US) {enabled (false)}
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+   capsule-imports {
+    import (viv.entity) { version(4.0.1) as (entity) }
+    import (viv.contact) { version(2.5156.4) as (contact) }
+    import (viv.core){ as (core) version-from (entity)}
+    import (viv.common) { as (common) version-from (entity) }
+    import (viv.self) { version(3.5.167) as (self) }
+  }
+}
