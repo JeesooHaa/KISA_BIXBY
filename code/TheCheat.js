@@ -1,4 +1,4 @@
-module.exports.function = function theCheat (phoneinput, goalinput) {
+module.exports.function = function theCheat (phoneinput, goalinput, isuser) {
   const http = require('http')
   const console = require('console')
 
