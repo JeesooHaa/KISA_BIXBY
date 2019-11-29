@@ -11,7 +11,7 @@ layout-macro-def(insureDetailInfoOut) {
     section {  // this macro returns a "section"
       content {
         paragraph {
-          value ("#{value(insureset.rate)}")
+          value ("#{value(insureset.name)}")
           style (Detail_M)
         }
       }

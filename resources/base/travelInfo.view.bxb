@@ -1,0 +1,11 @@
+result-view{
+  match: travelOutStructure(this)
+
+  render{
+    layout-macro (travelInfoOut) {
+      param (travelset) {
+        expression (travelset)
+      }
+    }
+  }
+}

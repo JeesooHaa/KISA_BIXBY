@@ -1,0 +1,42 @@
+layout-macro-def(travelInfoOut) {
+  params {
+    param (travelset) {
+      type (travelSet)
+      min (Optional)
+      max (Many)
+    }
+  }
+
+    content {
+      section {  // this macro returns a "section"
+        content {
+          for-each (travelset) {
+            as (travelcontent) {
+              cell-card {
+                on-click{
+                  intent{
+                    goal: TravelDetail
+                    value: $expr(travelcontent)
+                  }
+                }
+                slot1 {
+
+                }
+                slot2 {
+                  content {
+                  order (SecondaryPrimary)
+                  primary {
+                    template ("#{value(travelcontent.name)}")
+                  }
+                  secondary {
+                    template ("")
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
