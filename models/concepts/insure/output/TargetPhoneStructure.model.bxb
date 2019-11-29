@@ -1,0 +1,7 @@
+structure (TargetPhoneStructure) {
+  description (__DESCRIPTION__)
+  property (targetphone) {
+    type (targetphone)
+    min (Required) max (One)
+  }
+}

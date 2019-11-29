@@ -1,18 +1,22 @@
 action (PostGift) {
 	description (__DESCRIPTION__)
 	collect {
-		input (name) {
-			type (name)
-			min (Optional) max (One)
-		}
+		// input (name) {
+		// 	type (name)
+		// 	min (Optional) max (One)
+		// }
 		
-		input (url) {
-			type (url)
-			min (Optional) max (One)
-		}
+		// input (url) {
+		// 	type (url)
+		// 	min (Optional) max (One)
+		// }
 		
-		input (targetphone) {
-			type (targetphone)
+		// input (targetphone) {
+		// 	type (targetphone)
+		// 	min (Required) max (One)
+		// }
+		input (postgiftstructure) {
+			type (PostGiftStructure)
 			min (Required) max (One)
 		}
 	}
