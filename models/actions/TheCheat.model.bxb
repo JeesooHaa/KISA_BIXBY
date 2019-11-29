@@ -1,4 +1,5 @@
 action (TheCheat) {
+  // type(Search)
   description (__DESCRIPTION__)
   collect {
     input (phoneinput) {
