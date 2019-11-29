@@ -17,6 +17,10 @@ endpoints {
       accepted-inputs (insureset)
       local-endpoint (InsureDetail.js)
     }
+    action-endpoint (TravelDetail) {
+      accepted-inputs (travelset)
+      local-endpoint (TravelDetail.js)
+    }
 		// action-endpoint (__ACTION_NAME__) {
 		//   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
 		//   remote-endpoint (__ENDPOINT_URL__) {

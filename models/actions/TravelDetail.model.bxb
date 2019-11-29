@@ -1,0 +1,10 @@
+action (TravelDetail) {
+  description (__DESCRIPTION__)
+  collect {
+    input (travelset) {
+      type (travelSet) 
+      min (Optional) max (One)
+    }
+  }
+  output (travelDetailOutStructure)
+}
