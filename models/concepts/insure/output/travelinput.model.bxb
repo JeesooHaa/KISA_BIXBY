@@ -1,4 +1,7 @@
 enum (travelinput) {
   description (__DESCRIPTION__)
   symbol ("여행")
+    features {
+    transient
+  }
 }
