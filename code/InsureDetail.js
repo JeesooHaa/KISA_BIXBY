@@ -1,5 +1,5 @@
-module.exports.function = function insureDetail (insureset) {
+module.exports.function = function InsureDetail (insureset) {
   return {
-    insureset:insure
+    insureset:insureset
   }
 }
