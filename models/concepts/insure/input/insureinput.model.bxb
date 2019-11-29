@@ -1,3 +1,6 @@
 text (insureinput) {
   description (__DESCRIPTION__)
+    features {
+    transient
+  }
 }

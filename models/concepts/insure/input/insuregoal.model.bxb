@@ -1,3 +1,6 @@
 text (insuregoal) {
   description (__DESCRIPTION__)
+  features {
+    transient
+  }
 }

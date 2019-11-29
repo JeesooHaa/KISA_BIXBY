@@ -22,8 +22,12 @@ endpoints {
 			local-endpoint (TravelDetail.js)
 		}
 		action-endpoint (PostGift) {
-			accepted-inputs (name, url, targetphone)
+			accepted-inputs (postgiftstructure)
 			local-endpoint (PostGift.js)
+		}
+		action-endpoint (TargetPhone) {
+			accepted-inputs (targetphone)
+			local-endpoint (TargetPhone.js)
 		}
 		// action-endpoint (__ACTION_NAME__) {
 		//   accepted-inputs (__LIST_OF_ACTION_INPUTS__)

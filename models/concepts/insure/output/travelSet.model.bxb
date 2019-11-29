@@ -20,4 +20,7 @@ structure (travelSet) {
 		type (url)
 		min (Optional) max (One)
 	}
+	features {
+		transient
+	}
 }

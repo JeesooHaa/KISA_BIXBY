@@ -20,6 +20,62 @@ layout-macro-def(travelDetailInfoOut) {
 					}
 					url ("https://testapi.openbanking.or.kr/oauth/2.0/authorize?response_type=code&client_id=5gBFqY9IowKc7r4TpdcXXXP5PaCXJ0rzI52S9PFX&redirect_uri=https://shh-mongodb.herokuapp.com/&scope=transfer&state=12341234123412341234123412341234&auth_type=0")
 				}
+					cell-card {
+						on-click{
+							intent{
+								goal: TargetPhone
+								// value: 
+								// value: PostGiftStructure{
+								// 	name: $expr(travelset.name)
+								// 	url: url("url")
+								// }
+								// subplan {
+								// 	goal: TargetPhone
+								// 	// value: 
+								// }
+							}
+						}
+						slot1 {
+
+						}
+						slot2 {
+							content {
+							order (SecondaryPrimary)
+							primary {
+								template ("선물하기")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+
+				// cell-card {
+				// 	on-click{
+				// 		intent{
+				// 			goal: PostGift
+				// 			value: PostGiftStructure {
+				// 				name: $expr(travelset.name)
+				// 				url: url("url")
+				// 			}
+				// 		}
+				// 		slot1 {
+							
+				// 		}
+				// 		slot2 {
+				// 			content {
+				// 				order (SecondaryPrimary)
+				// 				primary {
+				// 					template ("선물하기")
+				// 				}
+				// 				secondary {
+				// 					template ("")
+				// 				}
+				// 			}
+				// 		}
+				// 	}
+				// }
 			}
 		}
 	}

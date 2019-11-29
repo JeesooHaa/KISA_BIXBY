@@ -1,0 +1,50 @@
+input-view {
+  match: targetphone
+
+  message("선물 보낼 분 번호를 적어주세요.")
+
+  render{
+    form{
+      elements{
+        text-input{
+          id (targetphone)
+          type (targetphone)
+          label (전화번호)
+          max-length (100)
+        }
+      }
+      on-submit{
+        goal:targetphone
+        value:viv.core.FormElement(targetphone)
+      }
+      submit-button{
+        template (Submit Name)
+      }
+    }
+  //   form{
+  //     elements{
+  //       checkbox{
+  //         id(isuser)
+  //         type(isUser)
+  //         primary-text(전화번호입니다.)
+  //         secondary-text(확인)
+  //         value(false)
+  //       }
+  //       checkbox{
+  //         id(isaccount)
+  //         type(isAccount)
+  //         primary-text(계좌번호입니다.)
+  //         secondary-text(확인)
+  //         value(false)
+  //       }
+  //     }
+  //     on-submit{
+  //       goal:Check
+  //       value:Check{
+  //         isuser:viv.core.FormElement(isuser)
+  //         isaccount:viv.core.FormElement(isaccount)
+  //     }
+  //   }
+  // }
+}
+}
