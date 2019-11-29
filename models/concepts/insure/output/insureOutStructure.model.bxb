@@ -1,0 +1,7 @@
+structure (insureOutStructure) {
+  description (__DESCRIPTION__)
+  property (insureset) {
+    type (insureSet)
+    min (Optional) max (Many)
+  }
+}

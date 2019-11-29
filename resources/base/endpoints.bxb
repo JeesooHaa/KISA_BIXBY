@@ -5,7 +5,10 @@ endpoints {
       accepted-inputs (phoneinput, goalinput)
       local-endpoint (TheCheat.js)
     }
-
+    action-endpoint (Insure) {
+      accepted-inputs (category, insureinput, goalinput)
+      local-endpoint (Insure.js)
+    }
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
     //   remote-endpoint (__ENDPOINT_URL__) {

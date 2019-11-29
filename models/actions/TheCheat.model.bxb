@@ -6,7 +6,7 @@ action (TheCheat) {
       min (Required) max (One)
     }
     input (goalinput) {
-      type(core.Text)
+      type(cheatgoal)
       min (Optional) max (Many)    
       }
   }
