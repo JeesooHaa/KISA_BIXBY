@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 train (t-2f7rfwhkxgeejzp87qyznd77x) {
   utterance ("[g:travelOutStructure] (여행자)[v:travelinput:여행] (보험)[v:insureinput] (추천)[v:insuregoal] 해 줘")
   plan (Y2BlUCrISaxML8ovzUvRy84sTtQrKUosS83xLy0JLikqTS4pLUplEENXEwJWwyCFLp6ZVwxUn56fmMMgjV0uM6+gtARTEmIpRJKFgZGBiYEZSDMAWRAIAyAxqBwA)
   last-modified (1575049096800)
 }
-train (t-2jbnqvgg9n3o6i7630mwin7kr) {
-  utterance ("[g:insureOutStructure] (보험)[v:insureinput]")
-  plan (Y2BmUCrISaxML8ovzUvRy84sTtTLzCsuLUr1Ly0JLikqTS4BshnE0NV4gtUwSGPXm5lXUFrCwMTACMQMQJKRAQSYIBgA)
-  last-modified (1575041363965)
-}
-=======
->>>>>>> 58ef0bc0826dc0e4565dbd18b5a22afca76ea79a

@@ -23,5 +23,11 @@ endpoints {
 		//     method (__HTTP_METHOD_USED__)
 		//   }
 		// }
+    action-endpoint (Auth) {
+      remote-endpoint ("{main.url}/AuthPath") {
+        method (POST)
+      }
+      // authorization (user)
+    }
 	}
 }

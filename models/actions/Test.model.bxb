@@ -1,0 +1,10 @@
+action (Test) {
+  description (__DESCRIPTION__)
+  collect {
+    input (test) {
+      type (core.Text)
+      min (Optional) max (One)
+    }
+  }
+  output (OutStructure)
+}

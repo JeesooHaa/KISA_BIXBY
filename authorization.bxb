@@ -1,0 +1,19 @@
+authorization {
+    global {
+      oauth2-client-credentials (providerId) {
+        client-id (5gBFqY9IowKc7r4TpdcXXXP5PaCXJ0rzI52S9PFX)
+        client-secret-key (HOnhxlopbh4cbLTOs0WvglDjVweLr9q0s15flcYC)
+        scope (login inquiry transfer)
+        token-endpoint (https://openapi.openbanking.or.kr/oauth/2.0/token)
+      }
+    }
+    user {
+      oauth2-authorization-code (providerId) {
+        authorize-endpoint (https://testapi.openbanking.or.kr/oauth/2.0/authorize)
+        client-id (5gBFqY9IowKc7r4TpdcXXXP5PaCXJ0rzI52S9PFX)
+        client-secret-key (HOnhxlopbh4cbLTOs0WvglDjVweLr9q0s15flcYC)
+        scope (login inquiry transfer)
+        token-endpoint (AuhtEndpoints.js)
+      }
+    }
+  }

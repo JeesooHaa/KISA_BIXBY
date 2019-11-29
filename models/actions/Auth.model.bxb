@@ -1,0 +1,10 @@
+action (Auth) {
+  type (Calculation)
+  collect {
+    input (input) {
+      type (auth)
+      min (Required) max (One)
+    }
+  }
+  output (auth)
+}

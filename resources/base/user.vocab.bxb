@@ -1,0 +1,6 @@
+vocab (User) {
+  "User" {
+    "User",
+    "user"
+  }
+}
