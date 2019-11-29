@@ -8,6 +8,7 @@ module.exports.function = function postGift(name, url, targetphone) {
     targetphone: targetphone
   }
   const res = http.postUrl(target_url, params, { format: 'json' })
+  // const res = 'ok'
 
   if (res) {
     message = '성공적으로 선물을 보냈습니다.'
