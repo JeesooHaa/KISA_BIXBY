@@ -1,0 +1,7 @@
+structure (travelOutStructure) {
+  description (__DESCRIPTION__)
+  property (travelset) {
+    type (travelSet)
+    min (Optional) max (Many)
+  }
+}

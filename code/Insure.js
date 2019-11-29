@@ -1,9 +1,8 @@
-module.exports.function = function insure(caetgory, insureinput, goalinput) {
-  const db = require('./db.js').data // 카테고리분기 준비
+module.exports.function = function insure(rateinput, insureinput, goalinput) {
+  const db = require('./db.js').rate // 카테고리분기 준비
   const console = require('console')
 
   let res = []
-  // console.log(Object.keys(db))
   for (let i in db) {
     var temp = {
       name: db[i].name,

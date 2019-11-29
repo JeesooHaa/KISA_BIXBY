@@ -1,8 +1,8 @@
-action (Insure) {
+action (Travel) {
 	description (__DESCRIPTION__)
 	collect {
-		input (rateinput) {
-			type (rateinput)
+		input (travelinput) {
+			type (travelinput)
 			min (Optional) max (One)
 		}
 		input (insureinput) {
@@ -14,5 +14,5 @@ action (Insure) {
 			min (Optional) max (One)
 		}
 	}
-	output (insureOutStructure)
+	output (travelOutStructure)
 }
