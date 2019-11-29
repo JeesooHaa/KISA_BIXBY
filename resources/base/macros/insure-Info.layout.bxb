@@ -26,7 +26,7 @@ layout-macro-def (insureInfoOut) {
                   content {
                   order (SecondaryPrimary)
                   primary {
-                    template ("#{value(insurecontent.rate)}")
+                    template ("#{value(insurecontent.name)}")
                   }
                   secondary {
                     template ("")
