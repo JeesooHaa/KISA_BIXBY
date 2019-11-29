@@ -1,7 +1,7 @@
-layout-macro-def(insureDetailInfoOut) {
+layout-macro-def(travelDetailInfoOut) {
   params {
-    param (insureset) {
-      type (insureSet)
+    param (travelset) {
+      type (travelSet)
       min (Optional)
       max (One)
     }
@@ -11,7 +11,7 @@ layout-macro-def(insureDetailInfoOut) {
     section {  // this macro returns a "section"
       content {
         paragraph {
-          value ("#{value(insureset.name)}")
+          value ("#{value(travelset.kind)}")
           style (Detail_M)
         }
       }

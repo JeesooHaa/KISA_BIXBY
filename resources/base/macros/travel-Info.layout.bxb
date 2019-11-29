@@ -14,10 +14,10 @@ layout-macro-def(travelInfoOut) {
             as (travelcontent) {
               cell-card {
                 on-click{
-                  // intent{
-                  //   goal: InsureDetail
-                  //   value: $expr(insurecontent)
-                  // }
+                  intent{
+                    goal: TravelDetail
+                    value: $expr(travelcontent)
+                  }
                 }
                 slot1 {
 
