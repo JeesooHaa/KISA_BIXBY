@@ -22,7 +22,7 @@ endpoints {
 			local-endpoint (TravelDetail.js)
 		}
 		action-endpoint (PostGift) {
-			accepted-inputs (name, url)
+			accepted-inputs (name, url, targetphone)
 			local-endpoint (PostGift.js)
 		}
 		// action-endpoint (__ACTION_NAME__) {

@@ -10,6 +10,11 @@ action (PostGift) {
 			type (url)
 			min (Optional) max (One)
 		}
+		
+		input (targetphone) {
+			type (targetphone)
+			min (Required) max (One)
+		}
 	}
 	output (core.Text)
 }
