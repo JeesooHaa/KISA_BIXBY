@@ -1,19 +1,4 @@
 action (TheCheat) {
-<<<<<<< HEAD
-  // type(Search)
-  description (__DESCRIPTION__)
-  collect {
-    input (phoneinput) {
-      type (contact.PhoneNumber)
-      min (Required) max (One)
-    }
-    input (goalinput) {
-      type(core.Text)
-      min (Optional) max (Many)    
-      }
-  }
-  output (theCheatOut)
-=======
 	description (__DESCRIPTION__)
 	collect {
 		input (phoneinput) {
@@ -30,5 +15,4 @@ action (TheCheat) {
 		}
 	}
 	output (theCheatOut)
->>>>>>> 6a43a02b410f8ea089028b0e496db045f64246e1
 }
