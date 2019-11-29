@@ -1,3 +1,11 @@
-text (rate_min) {
-  description (__DESCRIPTION__)
+structure (rate_min) {
+	description (__DESCRIPTION__)
+	property (name) {
+		type (name)
+		min (Optional) max (One)
+	}
+	property (rate) {
+		type (rate)
+		min (Optional) max (One)
+	}
 }

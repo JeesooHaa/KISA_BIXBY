@@ -1,12 +1,16 @@
 structure (insureSet) {
   description (__DESCRIPTION__)
+    property (name) {
+    type (name)
+    min (Optional) max (One)
+  }
   property (rate) {
     type (rate)
     min (Optional) max (One)
   }
     property (rate_min) {
     type (rate_min)
-    min (Optional) max (One)
+    min (Optional) max (Many)
   }
     property (premium) {
     type (premium)
