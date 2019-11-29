@@ -1,0 +1,24 @@
+input-view {
+  match:contact.PhoneNumber
+
+  message("성공")
+
+  render{
+    form{
+      elements{
+        text-input{
+          id (phoneinput)
+          type (contact.PhoneNumber)
+          label (Your number)
+        }
+      }
+      on-submit{
+        goal:contact.PhoneNumber
+        value:viv.core.FormElement(phoneinput)
+      }
+      submit-button{
+        template (Submit Name)
+      }
+    }
+  }
+}
