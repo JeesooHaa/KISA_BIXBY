@@ -1,0 +1,3 @@
+boolean (isUser) {
+  description (__DESCRIPTION__)
+}

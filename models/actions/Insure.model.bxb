@@ -1,0 +1,18 @@
+action (Insure) {
+	description (__DESCRIPTION__)
+	collect {
+		input (category) {
+			type (category)
+			min (Optional) max (One)
+		}
+		input (insureinput) {
+			type (insureinput)
+			min (Optional) max (One)
+		}
+		input (goalinput) {
+			type (insuregoal)
+			min (Optional) max (One)
+		}
+	}
+	output (insureOutStructure)
+}
