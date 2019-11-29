@@ -1,0 +1,19 @@
+structure (travelSet) {
+	description (__DESCRIPTION__)
+	property (name) {
+		type (name)
+		min (Optional) max (One)
+	}
+	property (kind) {
+		type (kinds)
+		min (Optional) max (One)
+	}
+	property (contents) {
+		type (contents)
+		min (Optional) max (Many)
+	}
+	property (fee) {
+		type (fee)
+		min (Optional) max (One)
+	}
+}

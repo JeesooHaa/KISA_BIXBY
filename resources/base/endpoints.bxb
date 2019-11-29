@@ -1,23 +1,23 @@
 endpoints {
-  action-endpoints {
-    // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
-    action-endpoint (TheCheat) {
-      accepted-inputs (phoneinput, goalinput, check)
-      local-endpoint (TheCheat.js)
-    }
-    action-endpoint (Insure) {
-      accepted-inputs (category, insureinput, goalinput)
-      local-endpoint (Insure.js)
-    }
-    action-endpoint (InsureDetail) {
-      accepted-inputs (insureset)
-      local-endpoint (InsureDetail.js)
-    }
-    // action-endpoint (__ACTION_NAME__) {
-    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
-    //   remote-endpoint (__ENDPOINT_URL__) {
-    //     method (__HTTP_METHOD_USED__)
-    //   }
-    // }
-  }
+	action-endpoints {
+		// Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
+		action-endpoint (TheCheat) {
+			accepted-inputs (phoneinput, goalinput, check)
+			local-endpoint (TheCheat.js)
+		}
+		action-endpoint (Insure) {
+			accepted-inputs (rateinput, insureinput, goalinput)
+			local-endpoint (Insure.js)
+		}
+		action-endpoint (Travel) {
+			accepted-inputs (travelinput, insureinput, goalinput)
+			local-endpoint (Travel.js)
+		}
+		// action-endpoint (__ACTION_NAME__) {
+		//   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
+		//   remote-endpoint (__ENDPOINT_URL__) {
+		//     method (__HTTP_METHOD_USED__)
+		//   }
+		// }
+	}
 }
