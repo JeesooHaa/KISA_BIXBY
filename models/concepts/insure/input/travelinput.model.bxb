@@ -1,3 +1,4 @@
-text (travelinput) {
+enum (travelinput) {
   description (__DESCRIPTION__)
+  symbol ("여행")
 }

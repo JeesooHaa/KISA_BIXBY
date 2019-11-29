@@ -1,3 +1,4 @@
-text (rateinput) {
+enum (rateinput) {
   description (__DESCRIPTION__)
+  symbol ("금리")
 }

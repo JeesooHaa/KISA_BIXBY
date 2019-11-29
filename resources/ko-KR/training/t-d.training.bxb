@@ -1,5 +1,5 @@
 train (t-d5qqsdzcxnig8vpo54gks3elq) {
-  utterance ("[g:insureOutStructure] (금리)[v:rateinput] (보험)[v:insureinput] (추천)[v:insuregoal]")
+  utterance ("[g:insureOutStructure] (금리)[v:rateinput:금리] (보험)[v:insureinput] (추천)[v:insuregoal]")
   plan (Y2BlUCrISaxML8ovzUvRy84sTtTLzCsuLUr1Ly0JLikqTS4BshnE0NV4gtUwSGHXm56fmMMgjV0uM6+gtIRBEl2yKLEEKsXCwMjAxMAMpBmALAiEAZAYVA4A)
-  last-modified (1575046636392)
+  last-modified (1575048725699)
 }

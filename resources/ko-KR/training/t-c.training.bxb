@@ -1,7 +1,7 @@
 train (t-c79uhg3xkkdvpjdhnualeyiex) {
   utterance ("[g:theCheatOut] (01000000000)[v:contact.PhoneNumber] (피해)[v:cheatgoal]")
-  plan (Y2BhkC7ISaxML8ovzUvRy84sTtQryUh1zkhNLPEvLWGQQJcMgUoySKLLJIOE0/MTcxjEyzLL9JLz80oSk0v0AjLy81L9SnOTUosYmBkYGZiAJAOQBkEIAPHBogA=)
-  last-modified (1575031414993)
+  plan (Y2BlkC7ISaxML8ovzUvRy84sTtQryUh1zkhNLPEvLWGQQJcMgUoyiKLLAIWTsxkk0YWTQarT8xNzGMTLMsv0kvPzShKTS/QCMvLzUv1Kc5NSixhYGBgZmBiYgTQDkAWBMMAMxkAZAA==)
+  last-modified (1575048073106)
 }
 train (t-cyjq16dwvxrqe5r5kiolizcvj) {
   utterance ("[g:isUser:prompt] (전화번호)[v:isUser:true]입니다")
