@@ -1,0 +1,5 @@
+train (t-xtvhdsl8qjra3z8p7j91a7t4p) {
+  utterance ("[g:travelOutStructure] (여행객)[v:travelinput:여행] (보험)[v:insureinput] (추천)[v:insuregoal]해줘")
+  plan (Y2BlUCrISaxML8ovzUvRy84sTtQrKUosS83xLy0JLikqTS4pLUplEENXEwJWwyCFLp6ZVwxUn56fmMMgjV0uM6+gtARTEmIpRJKFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1575049144305)
+}

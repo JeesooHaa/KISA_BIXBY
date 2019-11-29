@@ -1,0 +1,5 @@
+train (t-lg6k6dm20423d2tnjcrvm6gan) {
+  utterance ("[g:theCheatOut] (01012345678)[v:contact.PhoneNumber] (피해사례)[v:cheatgoal] 있어?")
+  plan (Y2BlkC7ISaxML8ovzUvRy84sTtQryUh1zkhNLPEvLWGQQJcMgUoyiKLLAIWTsxkk0YWTQarT8xNzGMTLMsv0kvPzShKTS/QCMvLzUv1Kc5NSixhYGBgZmBiYgTQDkAWBMMAMxkAZAA==)
+  last-modified (1575048072324)
+}
