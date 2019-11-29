@@ -8,7 +8,8 @@ module.exports.function = function travel(travelinput, insureinput, goalinput) {
       name:data[i]['name'],
       kind: data[i]['kinds'],
       fee: data[i]['fee'],
-      contents: ''
+      contents: '',
+      url: data[i]['url']
     }
 
     let temp_con = []
@@ -16,7 +17,7 @@ module.exports.function = function travel(travelinput, insureinput, goalinput) {
     for(j in data[i]['보장내용']) {
       temp_con.push({
         name: Object.keys(data[i]['보장내용'])[idx],
-        amt: data[i]['보장내용'][j]
+        amt: data[i]['보장내용'][j],
       })
       idx++
     }

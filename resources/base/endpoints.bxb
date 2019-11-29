@@ -13,25 +13,29 @@ endpoints {
 			accepted-inputs (travelinput, insureinput, goalinput)
 			local-endpoint (Travel.js)
 		}
-    action-endpoint (InsureDetail) {
-      accepted-inputs (insureset)
-      local-endpoint (InsureDetail.js)
-    }
-    action-endpoint (TravelDetail) {
-      accepted-inputs (travelset)
-      local-endpoint (TravelDetail.js)
-    }
+		action-endpoint (InsureDetail) {
+			accepted-inputs (insureset)
+			local-endpoint (InsureDetail.js)
+		}
+		action-endpoint (TravelDetail) {
+			accepted-inputs (travelset)
+			local-endpoint (TravelDetail.js)
+		}
+		action-endpoint (PostGift) {
+			accepted-inputs (name, url)
+			local-endpoint (PostGift.js)
+		}
 		// action-endpoint (__ACTION_NAME__) {
 		//   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
 		//   remote-endpoint (__ENDPOINT_URL__) {
 		//     method (__HTTP_METHOD_USED__)
 		//   }
 		// }
-    action-endpoint (Auth) {
-      remote-endpoint ("{main.url}/AuthPath") {
-        method (POST)
-      }
-      // authorization (user)
-    }
+		action-endpoint (Auth) {
+			remote-endpoint ("{main.url}/AuthPath") {
+				method (POST)
+			}
+			// authorization (user)
+		}
 	}
 }

@@ -1,0 +1,15 @@
+action (PostGift) {
+	description (__DESCRIPTION__)
+	collect {
+		input (name) {
+			type (name)
+			min (Optional) max (One)
+		}
+		
+		input (url) {
+			type (url)
+			min (Optional) max (One)
+		}
+	}
+	output (core.Text)
+}

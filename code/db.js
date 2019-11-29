@@ -315,7 +315,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "100만원",
       "배상책임": "2,000만원"
     },
-    "fee": "11,050원"
+    "fee": "11,050원",
+    "url": "https://direct.mggeneralins.com/MA010011DM.scp"
   },
   "2": {
     "category": "해외여행자보험",
@@ -328,7 +329,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "20만원",
       "배상책임": "1,000만원"
     },
-    "fee": "7,510원"
+    "fee": "7,510원",
+    "url": "https://www.educar.co.kr/w/product/travelLeisure/abroadTravelIntro",
   },
   "3": {
     "category": "해외여행자보험",
@@ -341,7 +343,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "50만원",
       "배상책임": "1,000만원"
     },
-    "fee": "8,820원"
+    "fee": "8,820원",
+    "url": "https://www.directdb.co.kr/product/gnrl/custinfoGnrl.do?searchPdcCd=10543&pdcDvcd=g_ov_trvl&partner_code=G009&gclid=Cj0KCQiAoIPvBRDgARIsAHsCw0-xjDT7UyufpkANUCPrx3JVnnUmG8Sx81TxZ2m1IWhaztmIsjF5J9UaAmGXEALw_wcB"
   },
   "4": {
     "category": "해외여행자보험",
@@ -354,7 +357,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "100만원",
       "배상책임": "2,000만원"
     },
-    "fee": "12,790원"
+    "fee": "12,790원",
+    "url": "https://www.nhfire.co.kr/product/retrieveProduct.nhfire?pdtCd=E720121"
   },
   "5": {
     "category": "해외여행자보험",
@@ -367,7 +371,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "20만원",
       "배상책임": "1,000만원"
     },
-    "fee": "8,440원"
+    "fee": "8,440원",
+    "url": "https://www.hanwhadirect.com/gni/ovseIndex.do?cmpgId=1000000214&cmpgCd=04&mediaCd=03&gdCsfcd=FA00202&ndArivCtmBjYn=&gclid=Cj0KCQiAoIPvBRDgARIsAHsCw0_VzfV-vzNrUxjlK1wyiLVtLSVRWV887R2v6KRSgoQvUzX2LodARoIaAlkZEALw_wcB"
   },
   "6": {
     "category": "해외여행자보험",
@@ -380,7 +385,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "50만원",
       "배상책임": "3,000만원"
     },
-    "fee": "18,276원"
+    "fee": "18,276원",
+    "url": "https://direct.kbinsure.co.kr/home/#/GL/OT/GN_CM0101M/otrav_step?pid=2090041&code=1000"
   },
   "7": {
     "category": "해외여행자보험",
@@ -393,7 +399,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "100만원",
       "배상책임": "2,000만원"
     },
-    "fee": "19,750원"
+    "fee": "19,750원",
+    "url": "https://direct.samsungfire.com/mall/PP030701_001.html"
   },
   "8": {
     "category": "해외여행자보험",
@@ -406,7 +413,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "20만원",
       "배상책임": "2,000만원"
     },
-    "fee": "12,260원"
+    "fee": "12,260원",
+    "url": "https://www.acedirect.co.kr/servlets/contract/contractForward.ace?target=pc/contract/step01Overseas&cmd=Step01Command&layout=type2"
   },
   "9": {
     "category": "해외여행자보험",
@@ -419,7 +427,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "50만원",
       "배상책임": "1,000만원"
     },
-    "fee": "8,820원"
+    "fee": "8,820원",
+    "url": "https://www.directdb.co.kr/product/gnrl/custinfoGnrl.do?searchPdcCd=10543&pdcDvcd=g_ov_trvl&partner_code=G009&gclid=Cj0KCQiAoIPvBRDgARIsAHsCw0-xjDT7UyufpkANUCPrx3JVnnUmG8Sx81TxZ2m1IWhaztmIsjF5J9UaAmGXEALw_wcB"
   },
   "10": {
     "category": "해외여행자보험",
@@ -432,7 +441,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "100만원",
       "배상책임": "1,000만원"
     },
-    "fee": "18,700원"
+    "fee": "18,700원",
+    "url": "https://mdirect.hi.co.kr/service.do?m=7c6641ec8a"
   },
   "11": {
     "category": "해외여행자보험",
@@ -445,7 +455,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "20만원",
       "배상책임": "500만원"
     },
-    "fee": "21,500원"
+    "fee": "21,500원",
+    "url": "https://www.aig.co.kr/wm/dpwmm001.html?gdcTlnoSeqn=7296&utm_campaign=albert_travel&utm_content=aigbrand&utm_source=google&utm_medium=cpc&placement=&network=g&loc_physical_ms=1009871&store_code=&device_model=&loc_interest_ms=&albert_targetid=kwd-10543601&albert_campaignid=1538480617&product_country=&feeditemid=&device=c&albert_keyword=aig&merchant_id=&product_id=&albert_category=&matchtype=b&product_partition_id=&product_channel=&albert_creativeid=343019689626&product_language=&albert_agid=59040915752&gclid=Cj0KCQiAoIPvBRDgARIsAHsCw08z6WTBHHC7rIdWS-HEbCbU-EV3vdqb6-l9LM0sR0Hhz6jzNMRLdeMaAmKuEALw_wcB"
   },
   "12": {
     "category": "해외여행자보험",
@@ -458,7 +469,8 @@ module.exports.travel = {
       "휴대품손해(분실제외)": "100만원",
       "배상책임": "3,000만원"
     },
-    "fee": "10,520원"
+    "fee": "10,520원",
+    "url": 'http://www.lotteins.co.kr/index2.jsp'
   }
 }
     

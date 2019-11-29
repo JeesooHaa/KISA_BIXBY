@@ -16,4 +16,8 @@ structure (travelSet) {
 		type (fee)
 		min (Optional) max (One)
 	}
+	property (url) {
+		type (url)
+		min (Optional) max (One)
+	}
 }
