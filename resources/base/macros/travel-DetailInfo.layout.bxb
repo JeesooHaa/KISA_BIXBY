@@ -20,6 +20,28 @@ layout-macro-def(travelDetailInfoOut) {
 					}
 					url ("#{value(travelset.url)}")
 				}
+<<<<<<< HEAD
+					cell-card {
+						on-click{
+							intent{
+								goal: TargetPhone
+								// subplan {
+								// 	goal: PostGift
+								// 	value: PostGiftStructure{
+								// 	name: $expr(travelset.name)
+								// 	url: url("url")
+								// 	// targetphone: targetphone(targetphone)
+								// }
+								// value: 
+								// value: PostGiftStructure{
+								// 	name: $expr(travelset.name)
+								// 	url: url("url")
+								// }
+								// subplan {
+								// 	goal: TargetPhone
+								// 	// value: 
+								// }
+=======
 				for-each (travelset.contents){
 					as(contentt) {
 						cell-card {
@@ -41,6 +63,7 @@ layout-macro-def(travelDetailInfoOut) {
 										template ("#{value(contentt.amt)}")
 									}
 								}
+>>>>>>> f361bfb2934923106f0d14981742fae3f9ca4e99
 							}
 						}
 					}
@@ -118,5 +141,9 @@ layout-macro-def(travelDetailInfoOut) {
 			}
 		}
 	}
+<<<<<<< HEAD
+}
+=======
 }
 	
+>>>>>>> f361bfb2934923106f0d14981742fae3f9ca4e99
