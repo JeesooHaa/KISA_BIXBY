@@ -24,6 +24,13 @@ layout-macro-def(travelDetailInfoOut) {
 						on-click{
 							intent{
 								goal: TargetPhone
+								// subplan {
+								// 	goal: PostGift
+								// 	value: PostGiftStructure{
+								// 	name: $expr(travelset.name)
+								// 	url: url("url")
+								// 	// targetphone: targetphone(targetphone)
+								// }
 								// value: 
 								// value: PostGiftStructure{
 								// 	name: $expr(travelset.name)
