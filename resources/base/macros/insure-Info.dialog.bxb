@@ -1,0 +1,6 @@
+// dialog (Result) {
+//   match: Insure(insure){
+//     from-output:  
+//   }
+//   template("신영훈님께 아래 보험을 추천합니다.")
+// }

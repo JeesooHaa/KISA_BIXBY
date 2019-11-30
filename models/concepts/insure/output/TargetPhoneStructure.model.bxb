@@ -1,17 +1,7 @@
-// structure (TargetPhoneStructure) {
-// 	description (__DESCRIPTION__)
-// 	property (targetphone) {
-// 		type (targetphone)
-// 		min (Required) max (One)
-// 	}
-// 	property (name) {
-// 		type (name)
-// 		min (Required) max (One)
-// 	}
-// 	property (url) {
-// 		type (url)
-// 		min (Required) max (One)
-// 	}
-// }
-
-text (TargetPhoneStructure)
+structure (TargetPhoneStructure) {
+  description (__DESCRIPTION__)
+  property (targetphone) {
+    type (targetphone)
+    min (Required) max (One)
+  }
+}

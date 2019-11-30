@@ -1,11 +1,12 @@
 action (TargetPhone) {
-	description (__DESCRIPTION__)
-	collect {
-		input (targetphone) {
-			type (targetphone)
-			min (Required) max (One)
-		}
+  description (__DESCRIPTION__)
+  collect {
+    input (targetphone) {
+      type (targetphone)
+      min (Required) max (One)
+    
+    }
 
-	}
-	output (TargetPhoneStructure)
+  }
+  output (TargetPhoneStructure)
 }

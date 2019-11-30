@@ -1,10 +1,10 @@
 train (t-yivtz0wvhnz4ymw62g7075rs1) {
   utterance ("[g:travelOutStructure] (여행)[v:travelinput:여행] (보험)[v:insureinput] (추천)[v:insuregoal]")
-  plan (Y2BlUCrISaxML8ovzUvRy84sTtQrKUosS83xLy0JLikqTS4pLUplEENXEwJWwyCFLp6ZVwxUn56fmMMgjV0uM6+gtARTEmIpRJKFgZGBiYEZSDMAWRAIAyAxqBwA)
-  last-modified (1575048579489)
+  plan (Y2BlkM/KLE7KLEnVy84sTtQrKUosS83xLy0JLikqTS4pLUplEEZREAJWwCCOIpiZVwxUmZ6fmMMggUUiM6+gtARNBmIRRIaFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1575074527223)
 }
 train (t-yrtit3iwq3owobn8sczdv1q8k) {
   utterance ("[g:theCheatOut] (01017589641)[v:contact.PhoneNumber] (피해)[v:cheatgoal] 안 당함")
-  plan (Y2BlkC7ISaxML8ovzUvRy84sTtQryUh1zkhNLPEvLWGQQJcMgUoyiKLLAIWTsxkk0YWTQarT8xNzGMTLMsv0kvPzShKTS/QCMvLzUv1Kc5NSixhYGBgZmBiYgTQDkAWBMMAMxkAZAA==)
-  last-modified (1575048430734)
+  plan (Y2BlkMjKLE7KLEnVy84sTtQryUh1zkhNLPEvLWEQRZEJgcowCKEIA8WSsxnEUMSSQerS8xNzGMTLMsv0kvPzShKTS/QCMvLzUv1Kc5NSixhYGBgZmBiYgTQDkAWBMMAMxkAZAA==)
+  last-modified (1575074252899)
 }

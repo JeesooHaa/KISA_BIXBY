@@ -1,5 +1,5 @@
 capsule {
-  id (playground.kisa)
+  id (jisbite.kisa)
   version (0.1.0)
   format (3)
   targets {
