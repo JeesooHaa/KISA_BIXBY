@@ -1,112 +1,111 @@
-layout-macro-def(travelDetailInfoOut) {
-	params {
-		param (travelset) {
-			type (travelSet)
-			min (Optional)
-			max (One)
-		}
-	}
+// layout-macro-def(travelDetailInfoOut) {
+// 	params {
+// 		param (travelset) {
+// 			type (travelSet)
+// 			min (Optional)
+// 			max (One)
+// 		}
+// 	}
 	
-	content {
-		section {  // this macro returns a "section"
-			content {
+// 	content {
+// 		section {  // this macro returns a "section"
+// 			content {
 				
-				single-line {
-					text ("#{value(travelset.name)} : #{value(travelset.fee)} ")
-				}
-				attribution-link{
-					label{
-						template ("상세보기")
-					}
-					url ("#{value(travelset.url)}")
-				}
-				for-each (travelset.contents){
-					as(contentt) {
-						cell-card {
-							slot2 {
-								content {
-									order (PrimarySecondary)
-									primary {
-										template ("#{value(contentt.name)}")
-									}
-									secondary {
-										template ("#{value(contentt.amt)}")
-									}
-								}
-							}
-						}
-					}
-				}
-				attribution-link{
-					label{
-						template ("샘플")
-					}
-					url ("https://testapi.openbanking.or.kr/oauth/2.0/authorize?response_type=code&client_id=5gBFqY9IowKc7r4TpdcXXXP5PaCXJ0rzI52S9PFX&redirect_uri=https://shh-mongodb.herokuapp.com/&scope=transfer&state=12341234123412341234123412341234&auth_type=0")
-				}
-				cell-card {
-					on-click{
-						intent{
-							goal: TargetPhone
-							// value:
-							// value: PostGiftStructure{
-							// 	name: $expr(travelset.name)
-							// 	url: url("url")
-							// }
-							// subplan {
-							// 	goal: TargetPhone
-							// 	// value:
-							// }
-						}
-					}
-					slot3 {
-						image{
-							url{
-								template ("gift.png")
-							}
-							shape (Circle)
-						}
+// 				single-line {
+// 					text ("#{value(travelset.name)} : #{value(travelset.fee)} ")
+// 				}
+// 				attribution-link{
+// 					label{
+// 						template ("상세보기")
+// 					}
+// 					url ("#{value(travelset.url)}")
+// 				}
+// 				for-each (travelset.contents){
+// 					as(contentt) {
+// 						cell-card {
+// 							slot2 {
+// 								content {
+// 									order (PrimarySecondary)
+// 									primary {
+// 										template ("#{value(contentt.name)}")
+// 									}
+// 									secondary {
+// 										template ("#{value(contentt.amt)}")
+// 									}
+// 								}
+// 							}
+// 						}
+// 					}
+// 				}
+// 				attribution-link{
+// 					label{
+// 						template ("샘플")
+// 					}
+// 					url ("https://testapi.openbanking.or.kr/oauth/2.0/authorize?response_type=code&client_id=5gBFqY9IowKc7r4TpdcXXXP5PaCXJ0rzI52S9PFX&redirect_uri=https://shh-mongodb.herokuapp.com/&scope=transfer&state=12341234123412341234123412341234&auth_type=0")
+// 				}
+// 				cell-card {
+// 					on-click{
+// 						intent{
+// 							goal: TargetPhone
+// 							// value:
+// 							// value: PostGiftStructure{
+// 							// 	name: $expr(travelset.name)
+// 							// 	url: url("url")
+// 							// }
+// 							// subplan {
+// 							// 	goal: TargetPhone
+// 							// 	// value:
+// 							// }
+// 						}
+// 					}
+// 					slot3 {
+// 						image{
+// 							url{
+// 								template ("gift.png")
+// 							}
+// 							shape (Circle)
+// 						}
 						
-					}
-					slot2 {
-						content {
-							order (SecondaryPrimary)
-							primary {
-								template ("선물하기")
-							}
-							secondary {
-								template ("")
-							}
-						}
-					}
-				}
+// 					}
+// 					slot2 {
+// 						content {
+// 							order (SecondaryPrimary)
+// 							primary {
+// 								template ("선물하기")
+// 							}
+// 							secondary {
+// 								template ("")
+// 							}
+// 						}
+// 					}
+// 				}
 				
-				// cell-card {
-				// 	on-click{
-				// 		intent{
-				// 			goal: PostGift
-				// 			value: PostGiftStructure {
-				// 				name: $expr(travelset.name)
-				// 				url: url("url")
-				// 			}
-				// 		}
-				// 		slot1 {
+// 				// cell-card {
+// 				// 	on-click{
+// 				// 		intent{
+// 				// 			goal: PostGift
+// 				// 			value: PostGiftStructure {
+// 				// 				name: $expr(travelset.name)
+// 				// 				url: url("url")
+// 				// 			}
+// 				// 		}
+// 				// 		slot1 {
 				
-				// 		}
-				// 		slot2 {
-				// 			content {
-				// 				order (SecondaryPrimary)
-				// 				primary {
-				// 					template ("선물하기")
-				// 				}
-				// 				secondary {
-				// 					template ("")
-				// 				}
-				// 			}
-				// 		}
-				// 	}
-				// }
-			}
-		}
-	}
-	
-}
+// 				// 		}
+// 				// 		slot2 {
+// 				// 			content {
+// 				// 				order (SecondaryPrimary)
+// 				// 				primary {
+// 				// 					template ("선물하기")
+// 				// 				}
+// 				// 				secondary {
+// 				// 					template ("")
+// 				// 				}
+// 				// 			}
+// 				// 		}
+// 				// 	}
+// 				// }
+// 			}
+// 		}
+// 	}
+// }
