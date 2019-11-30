@@ -12,6 +12,7 @@ layout-macro-def (insureInfoOut) {
         content {
           for-each (insureset) {
             as (insurecontent) {
+              
               cell-card {
                 on-click{
                   intent{

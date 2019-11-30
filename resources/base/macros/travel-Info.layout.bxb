@@ -1,42 +1,94 @@
 layout-macro-def(travelInfoOut) {
-  params {
-    param (travelset) {
-      type (travelSet)
-      min (Optional)
-      max (Many)
-    }
-  }
-
-    content {
-      section {  // this macro returns a "section"
-        content {
-          for-each (travelset) {
-            as (travelcontent) {
-              cell-card {
-                on-click{
-                  intent{
-                    goal: TravelDetail
-                    value: $expr(travelcontent)
-                  }
-                }
-                slot1 {
-
-                }
-                slot2 {
-                  content {
-                  order (SecondaryPrimary)
-                  primary {
-                    template ("#{value(travelcontent.name)}")
-                  }
-                  secondary {
-                    template ("")
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+	params {
+		param (travelset) {
+			type (travelSet)
+			min (Optional)
+			max (Many)
+		}
+	}
+	content {
+		section {  // this macro returns a "section"
+			content {
+				for-each (travelset) {
+					as (travelcontent) {
+						index-var(i)
+						if(i < 3){
+							cell-card {
+								on-click{
+									intent{
+										goal: TravelDetail
+										value: $expr(travelcontent)
+									}
+								}
+								slot2 {
+									content {
+										order (PrimarySecondary)
+										primary {
+											template ("#{value(travelcontent.name)}")
+										}
+										secondary {
+											template ("#{value(travelcontent.fee)}")
+										}
+									}
+								}
+								slot1 {
+									image {
+										url {
+											template ("insignia.png")
+										}
+										shape (Circle)
+									}
+								}
+								slot3{
+									image {
+										url{
+											template ("loupe.png")
+										}
+										shape (Circle)
+									}
+								}
+							}
+						}
+						else{
+							cell-card {
+								on-click{
+									intent{
+										goal: TravelDetail
+										value: $expr(travelcontent)
+									}
+								}
+								slot1 {
+									image {
+										url {
+											template ("blank.png")
+										}
+										shape (Circle)
+									}
+								}
+								slot2 {
+									content {
+										order (PrimarySecondary)
+										primary {
+											template ("#{value(travelcontent.name)}")
+										}
+										secondary {
+											template ("#{value(travelcontent.fee)}")
+										}
+									}
+								}
+								slot3{
+									image {
+										url{
+											template ("loupe.png")
+										}
+										shape (Circle)
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

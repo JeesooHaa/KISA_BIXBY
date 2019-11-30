@@ -10,16 +10,17 @@ layout-macro-def(travelDetailInfoOut) {
 	content {
 		section {  // this macro returns a "section"
 			content {
-				paragraph {
-					value ("#{value(travelset.kind)}")
-					style (Detail_M)
+				
+				single-line {
+					text ("#{value(travelset.name)} : #{value(travelset.fee)} ")
 				}
 				attribution-link{
 					label{
-						template ("가입하러가기")
+						template ("상세보기")
 					}
-					url ("https://testapi.openbanking.or.kr/oauth/2.0/authorize?response_type=code&client_id=5gBFqY9IowKc7r4TpdcXXXP5PaCXJ0rzI52S9PFX&redirect_uri=https://shh-mongodb.herokuapp.com/&scope=transfer&state=12341234123412341234123412341234&auth_type=0")
+					url ("#{value(travelset.url)}")
 				}
+<<<<<<< HEAD
 					cell-card {
 						on-click{
 							intent{
@@ -40,13 +41,67 @@ layout-macro-def(travelDetailInfoOut) {
 								// 	goal: TargetPhone
 								// 	// value: 
 								// }
+=======
+				for-each (travelset.contents){
+					as(contentt) {
+						cell-card {
+							slot1{
+								image{
+									url{
+										template ("checked.png")
+									}
+									shape (Circle)
+								}
+							}
+							slot2 {
+								content {
+									order (PrimarySecondary)
+									primary {
+										template ("#{value(contentt.name)}")
+									}
+									secondary {
+										template ("#{value(contentt.amt)}")
+									}
+								}
+>>>>>>> f361bfb2934923106f0d14981742fae3f9ca4e99
 							}
 						}
-						slot1 {
-
+					}
+				}
+				
+				
+				attribution-link{
+					label{
+						template ("샘플")
+					}
+					url ("https://testapi.openbanking.or.kr/oauth/2.0/authorize?response_type=code&client_id=5gBFqY9IowKc7r4TpdcXXXP5PaCXJ0rzI52S9PFX&redirect_uri=https://shh-mongodb.herokuapp.com/&scope=transfer&state=12341234123412341234123412341234&auth_type=0")
+				}
+				cell-card {
+					on-click{
+						intent{
+							goal: TargetPhone
+							// value:
+							// value: PostGiftStructure{
+							// 	name: $expr(travelset.name)
+							// 	url: url("url")
+							// }
+							// subplan {
+							// 	goal: TargetPhone
+							// 	// value:
+							// }
 						}
-						slot2 {
-							content {
+					}
+					slot3 {
+						image{
+							url{
+								template ("gift.png")
+							}
+							shape (Circle)
+						}
+						
+					}
+					slot2 {
+						content {
 							order (SecondaryPrimary)
 							primary {
 								template ("선물하기")
@@ -57,7 +112,7 @@ layout-macro-def(travelDetailInfoOut) {
 						}
 					}
 				}
-
+				
 				// cell-card {
 				// 	on-click{
 				// 		intent{
@@ -68,7 +123,7 @@ layout-macro-def(travelDetailInfoOut) {
 				// 			}
 				// 		}
 				// 		slot1 {
-							
+				
 				// 		}
 				// 		slot2 {
 				// 			content {
@@ -86,4 +141,9 @@ layout-macro-def(travelDetailInfoOut) {
 			}
 		}
 	}
+<<<<<<< HEAD
 }
+=======
+}
+	
+>>>>>>> f361bfb2934923106f0d14981742fae3f9ca4e99
